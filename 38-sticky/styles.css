@@ -1,0 +1,53 @@
+body {
+    background-color: #21232a;
+    color: azure;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.nav-sticky {
+    background-color: cadetblue;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+
+.nav {
+    background-color: darkslateblue;
+    height: 300px;
+}
+
+.nav__div {
+    text-align: center;
+
+    position: sticky;
+    top: 50px;
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    text-align: center;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+}
+
+article {
+    background-color: brown;
+}
+
+.article__title {
+    background-color: #21232a;
+
+    position: sticky;
+    top: 50px;
+}
